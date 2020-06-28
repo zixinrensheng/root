@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: springboot
+#  data:
+#    mongodb:
+#      host: 127.0.0.1
+#      database: dms
+  datasource:
+    username: pera131basecode
+    password: pera131basecode
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:pera
+#  redis:
+#    database: 0
+#    host: 127.0.0.1
+#    port: 6379
+#    password:
+#    # 连接超时时间（毫秒）
+#    timeout: 1000
+#    jedis:
+#      pool:
+#        # 连接池最大连接数（使用负值表示没有限制）
+#        max-active: 1
+#        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+#        max-wait: -1
+#        # 连接池中的最大空闲连接
+#        max-idle: 10
+#        # 连接池中的最小空闲连接
+#        min-idle: 0
+#mybatis:
+#  mapper-locations: classpath*:mapper/*.xml
+
+server:
+  port: 8080
+  servlet:
+    context-path: /springboot
+#feign:
+#  client:
+#    config:
+#      default:
+#        connectTimeout: 100000
+#        readTimeout: 600000
+#tmpDir: ./tool/tmp/unzip
+#excelDir: ./tool/tmp/excel
+#rdmIp: http://127.0.0.1/rdm
+#ermIp: http://127.0.0.1/portal
+#dmsIp: http://127.0.0.1/dms
+#kmIp: http://127.0.0.1/km
+
